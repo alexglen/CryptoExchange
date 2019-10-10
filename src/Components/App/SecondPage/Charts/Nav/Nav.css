@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    font-size: 1.1em;
+    justify-content: center;
+  }
+  
+  .nav p {
+    margin-left: 35px;
+    cursor: pointer;
+  
+    width: 95px;
+    text-align: center;
+    padding: 5px 5px;
+    color: #c3c7d0;
+  }
+  
+  a.activeNav p {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #444450;
+    border-radius: 5px;
+  }

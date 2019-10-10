@@ -1,0 +1,39 @@
+.wallet {
+    width: 205px;
+    display: flex;
+    background-color: #41414d;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    padding: 5px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .wallet__logo {
+    display: flex;
+  }
+  
+  .wallet__abbr {
+    font-size: 1.1em;
+  }
+  
+  .wallet__name {
+    color: #c3c7d0;
+    margin-top: 0;
+  }
+  
+  .wallet__picture {
+    width: 20px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px;
+  }
+  
+  .wallet__random_sum {
+    font-size: 1em;
+  }
+  
+  .wallet__percent {
+    margin-bottom: 1px;
+    margin-top: 3px;
+  }  

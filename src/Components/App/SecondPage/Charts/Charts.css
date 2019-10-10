@@ -1,0 +1,28 @@
+.ct-series-a .ct-line {
+  /* Цвет линии серии */
+  stroke: #8562d0;
+  /* Толщина линии */
+  stroke-width: 2px;
+  /* Пунктирная линия по шаблону */
+  stroke-dasharray: 0px 0px;
+  color: white;
+}
+
+/* Этот селектор перкрывает стиль точек линейного графика */
+.ct-series-a .ct-point {
+  /* Цвет точек */
+  stroke: #8562d0;
+  /* Размер точек */
+  stroke-width: 0px;
+  /* Сделать точки квадратами */
+}
+
+.ct-label {
+  font-size: 0.8em;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.ct-grids line {
+  background-color: steelblue;
+}

@@ -1,0 +1,7 @@
+.wallets {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow-x: visible;
+    flex-wrap: nowrap;
+  }  
