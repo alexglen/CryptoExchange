@@ -18,46 +18,46 @@ const fourthSumInDollars = 57.88 * fourthSum;
 const fifthSumInDollars = 56.81 * fifthSum;
 
 export const startAllSum =
-  firtsSumInDollars +
-  secondSumInDollars +
-  thirdSumInDollars +
-  fourthSumInDollars +
-  fifthSumInDollars;
+	firtsSumInDollars +
+	secondSumInDollars +
+	thirdSumInDollars +
+	fourthSumInDollars +
+	fifthSumInDollars;
 
 export const data = [
-  {
-    abbreviation: "BTC",
-    name: "Bitcoin",
-    picture: bitcoin,
-    startSumInCoins: firstSum,
-    startSumInDollars: firtsSumInDollars
-  },
-  {
-    abbreviation: "ETH",
-    name: "Ethereum",
-    picture: ethereum,
-    startSumInCoins: secondSum,
-    startSumInDollars: secondSumInDollars
-  },
-  {
-    abbreviation: "XRP",
-    name: "Ripple",
-    picture: litecoin,
-    startSumInCoins: thirdSum,
-    startSumInDollars: thirdSumInDollars
-  },
-  {
-    abbreviation: "XMR",
-    name: "Monero",
-    picture: monero,
-    startSumInCoins: fourthSum,
-    startSumInDollars: fourthSumInDollars
-  },
-  {
-    abbreviation: "LTC",
-    name: "Litecoin",
-    picture: ripple,
-    startSumInCoins: fifthSum,
-    startSumInDollars: fifthSumInDollars
-  }
+	{
+		abbreviation: "BTC",
+		name: "Bitcoin",
+		picture: bitcoin,
+		startSumInCoins: firstSum,
+		startSumInDollars: firtsSumInDollars,
+	},
+	{
+		abbreviation: "ETH",
+		name: "Ethereum",
+		picture: ethereum,
+		startSumInCoins: secondSum,
+		startSumInDollars: secondSumInDollars,
+	},
+	{
+		abbreviation: "XRP",
+		name: "Ripple",
+		picture: litecoin,
+		startSumInCoins: thirdSum,
+		startSumInDollars: thirdSumInDollars,
+	},
+	{
+		abbreviation: "XMR",
+		name: "Monero",
+		picture: monero,
+		startSumInCoins: fourthSum,
+		startSumInDollars: fourthSumInDollars,
+	},
+	{
+		abbreviation: "LTC",
+		name: "Litecoin",
+		picture: ripple,
+		startSumInCoins: fifthSum,
+		startSumInDollars: fifthSumInDollars,
+	},
 ];
